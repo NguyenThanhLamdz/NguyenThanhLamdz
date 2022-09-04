@@ -1,1 +1,1 @@
-Tool này chỉ người đẹp trai mới dùng được
+Tool by Trần Ngọc Quân
